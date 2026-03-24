@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Firli — UI/UX Designer & Web Creator</title>
+  <link rel="icon" href="img2/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-box">
+    <div class="loader-letters">
+      <span>F</span><span>I</span><span>R</span><span>L</span><span>I</span>
+    </div>
+    <div class="loader-line"><div class="loader-fill"></div></div>
+    <p class="loader-sub">memuat portofolio...</p>
+  </div>
+</div>
+
+<!-- NOISE OVERLAY -->
+<div class="noise" aria-hidden="true"></div>
+
+<!-- CURSOR -->
+<div id="cur" aria-hidden="true"></div>
+<div id="cur2" aria-hidden="true"></div>
+
+<!-- ══ HEADER ══ -->
+<header id="hdr" class="hdr">
+  <div class="wrap hdr-inner">
+    <a href="#hero" class="logo">F<span>.</span></a>
+    <nav id="nav" class="nav">
+      <a href="#hero"      class="nl">Beranda</a>
+      <a href="#services"  class="nl">Layanan</a>
+      <a href="#portfolio" class="nl">Karya</a>
+      <a href="about.html" class="nl">Tentang</a>
+      <a href="#contact"   class="nl nl-cta">Hubungi ↗</a>
+    </nav>
+    <button id="nt" class="nt" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ══ HERO ══ -->
+<section id="hero" class="hero">
+  <div class="hero-bg-word" aria-hidden="true">FIRLI</div>
+  <div class="wrap hero-grid">
+
+    <div class="hero-left">
+      <div class="pill">
+        <span class="pill-dot"></span>
+        <span>Open for projects</span>
+      </div>
+
+      <h1 class="htitle">
+        <em>Desainer</em><br>
+        UI/UX &amp;<br>
+        <span class="stroke-text">Web Creator</span>
+      </h1>
+
+      <p class="hdesc">
+        Pelajar SMK Multazam jurusan DKV. Menggabungkan estetika visual,
+        riset pengguna, dan teknologi AI untuk menghasilkan produk digital yang bermakna.
+      </p>
+
+      <div class="hbtns">
+        <a href="#portfolio" class="btn-main">Lihat Karya <span>↓</span></a>
+        <a href="#contact"   class="btn-sec">Bekerja Sama</a>
+      </div>
+
+      <ul class="tag-row">
+        <li>UI/UX</li><li>Web Design</li><li>Branding</li><li>Tipografi</li><li>DKV</li>
+      </ul>
+    </div>
+
+    <div class="hero-right">
+      <div class="profile-card">
+        <div class="pc-img">
+          <img src="img2/designer.jpg" alt="Firli"/>
+          <div class="pc-glow"></div>
+        </div>
+        <div class="pc-body">
+          <div class="pc-row1">
+            <div>
+              <strong class="pc-name">Firli</strong>
+              <p class="pc-role">SMK Multazam · DKV</p>
+            </div>
+            <span class="pc-status"><i></i>Open</span>
+          </div>
+          <div class="pc-stats">
+            <div><b>10+</b><small>Proyek</small></div>
+            <div><b>2+</b><small>Klien</small></div>
+            <div><b>1+</b><small>Tahun</small></div>
+          </div>
+          <div class="pc-tools">
+            <span>Figma</span><span>Photoshop</span><span>Adobe XD</span><span>AI Tools</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="scroll-hint">
+    <span>scroll</span>
+    <div class="sh-line"></div>
+  </div>
+</section>
+
+<!-- ══ TICKER ══ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>UI/UX Design ✦ Web Creator ✦ Branding ✦ Tipografi ✦ DKV ✦ Figma ✦ Photoshop ✦ Adobe XD ✦ AI-Powered ✦ SMK Multazam ✦</span>
+    <span>UI/UX Design ✦ Web Creator ✦ Branding ✦ Tipografi ✦ DKV ✦ Figma ✦ Photoshop ✦ Adobe XD ✦ AI-Powered ✦ SMK Multazam ✦</span>
+  </div>
+</div>
+
+<!-- ══ SERVICES ══ -->
+<section id="services" class="services">
+  <div class="wrap">
+    <div class="sec-label"><span class="num">01</span> Layanan</div>
+    <h2 class="sec-title">Apa yang <em>saya buat</em></h2>
+    <div class="sv-grid">
+
+      <article class="sv-card" tabindex="0">
+        <div class="sv-ico"><img src="img2/icon-design.svg" alt=""/></div>
+        <span class="sv-n">01</span>
+        <h3>UI/UX Design</h3>
+        <p>Antarmuka intuitif & interaksi yang menyenangkan — dari wireframe hingga prototype siap pakai.</p>
+        <div class="sv-arr">↗</div>
+      </article>
+
+      <article class="sv-card" tabindex="0">
+        <div class="sv-ico"><img src="img2/icon-website.svg" alt=""/></div>
+        <span class="sv-n">02</span>
+        <h3>Website & Prototipe</h3>
+        <p>Website cepat dengan bantuan AI — dari konsep hingga deploy di Vercel. Responsif & modern.</p>
+        <div class="sv-arr">↗</div>
+      </article>
+
+      <article class="sv-card" tabindex="0">
+        <div class="sv-ico"><img src="img2/icon-branding.svg" alt=""/></div>
+        <span class="sv-n">03</span>
+        <h3>Branding & Poster</h3>
+        <p>Identitas visual yang konsisten — logo, tipografi, palet warna, poster, dan konten media sosial.</p>
+        <div class="sv-arr">↗</div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ PORTFOLIO ══ -->
+<section id="portfolio" class="portfolio">
+  <div class="wrap">
+    <div class="sec-label"><span class="num">02</span> Portofolio</div>
+    <div class="port-header">
+      <h2 class="sec-title">Karya <em>Terpilih</em></h2>
+      <div class="filters" role="tablist">
+        <button class="f active" data-f="all">Semua</button>
+        <button class="f" data-f="web">Website</button>
+        <button class="f" data-f="branding">Poster & Grafis</button>
+        <button class="f" data-f="mobile">Mobile</button>
+      </div>
+    </div>
+
+    <div class="port-grid" id="pg">
+
+      <!-- 1. Magic Pocket -->
+      <div class="pi" data-tags="mobile,branding"
+           data-title="Magic Pocket App"
+           data-desc="Konsep UI & materi promosi untuk aplikasi Magic Pocket — platform multipurpose bertenaga AI."
+           data-img="img2/singa3.png">
+        <div class="pi-img">
+          <img src="img2/singa3.png" alt="Magic Pocket" loading="lazy"/>
+          <div class="pi-ov">
+            <span class="pi-tag">Mobile · Branding</span>
+            <h4>Magic Pocket App</h4>
+            <p>Konsep UI & materi promosi</p>
+            <button class="pi-btn">Detail ↗</button>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Magic Pocket App</h4><span>Mobile · Branding</span></div>
+      </div>
+
+      <!-- 2. Qatar -->
+      <div class="pi" data-tags="branding"
+           data-title="Poster Barcelona — Qatar"
+           data-desc="Poster editorial bertema Barcelona dengan estetika hitam putih dramatis. Photoshop compositing."
+           data-img="img2/QATAR.jpg">
+        <div class="pi-img">
+          <img src="img2/QATAR.jpg" alt="Qatar Poster" loading="lazy"/>
+          <div class="pi-ov">
+            <span class="pi-tag">Photoshop · Editorial</span>
+            <h4>Poster Barcelona</h4>
+            <p>Compositing dramatis B/W</p>
+            <button class="pi-btn">Detail ↗</button>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Poster Barcelona</h4><span>Photoshop · Editorial</span></div>
+      </div>
+
+      <!-- 3. BanggaLah -->
+      <div class="pi" data-tags="branding"
+           data-title="Konten BanggaLah — Meme Chat"
+           data-desc="Desain konten kreatif bergaya meme chat WhatsApp bertema kebanggaan organisasi LDII. Dibuat untuk media sosial."
+           data-img="img2/bangga.PNG">
+        <div class="pi-img">
+          <img src="img2/bangga.PNG" alt="BanggaLah" loading="lazy"/>
+          <div class="pi-ov">
+            <span class="pi-tag">Konten Sosmed · Grafis</span>
+            <h4>BanggaLah</h4>
+            <p>Konten kreatif media sosial</p>
+            <button class="pi-btn">Detail ↗</button>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Konten BanggaLah</h4><span>Grafis · Sosmed</span></div>
+      </div>
+
+      <!-- 4. Bijak HP -->
+      <div class="pi" data-tags="branding"
+           data-title="Bijak Dalam Menggunakan Teknologi"
+           data-desc="Poster edukasi digital yang memperingatkan bahaya judi online, pinjol, dan konten negatif. Visual komposit bold."
+           data-img="img2/bijak hp.PNG">
+        <div class="pi-img">
+          <img src="img2/bijak hp.PNG" alt="Bijak HP" loading="lazy"/>
+          <div class="pi-ov">
+            <span class="pi-tag">Poster Edukasi · Grafis</span>
+            <h4>Bijak Teknologi</h4>
+            <p>Poster edukasi digital</p>
+            <button class="pi-btn">Detail ↗</button>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Bijak Teknologi</h4><span>Poster Edukasi</span></div>
+      </div>
+
+      <!-- 5. Hari Raya kolase -->
+      <div class="pi" data-tags="branding"
+           data-title="Idul Fitri 1446H — Kolase Foto"
+           data-desc="Desain kartu ucapan Idul Fitri 1446H / 2026M dengan kolase foto keluarga. Komposisi foto bertingkat."
+           data-img="img2/hari raya.PNG">
+        <div class="pi-img">
+          <img src="img2/hari raya.PNG" alt="Hari Raya" loading="lazy"/>
+          <div class="pi-ov">
+            <span class="pi-tag">Greeting Card · Kolase</span>
+            <h4>Idul Fitri 1446H</h4>
+            <p>Kolase foto keluarga</p>
+            <button class="pi-btn">Detail ↗</button>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Idul Fitri — Kolase</h4><span>Greeting Card</span></div>
+      </div>
+
+      <!-- 6. Idul Fitri Hertanto -->
+      <div class="pi" data-tags="branding"
+           data-title="Idul Fitri — Keluarga Hertanto"
+           data-desc="Poster ucapan Selamat Hari Raya Idul Fitri dari Keluarga Hertanto. Desain masjid elegan tipografi biru putih."
+           data-img="img2/idulfitri.PNG">
+        <div class="pi-img">
+          <img src="img2/idulfitri.PNG" alt="Idul Fitri" loading="lazy"/>
+          <div class="pi-ov">
+            <span class="pi-tag">Poster Islami · Branding</span>
+            <h4>Idul Fitri Hertanto</h4>
+            <p>Poster islami elegan</p>
+            <button class="pi-btn">Detail ↗</button>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Idul Fitri Hertanto</h4><span>Poster Islami</span></div>
+      </div>
+
+      <!-- 7. Mulai Bismillah -->
+      <div class="pi" data-tags="branding"
+           data-title="Mulai Segalanya Dengan Bismillah"
+           data-desc="Desain tipografi motivasi islami. Layout bold & playful dengan warna teal segar dan tipografi putih berani."
+           data-img="img2/mulai.PNG">
+        <div class="pi-img">
+          <img src="img2/mulai.PNG" alt="Bismillah" loading="lazy"/>
+          <div class="pi-ov">
+            <span class="pi-tag">Tipografi · Poster Islami</span>
+            <h4>Bismillah</h4>
+            <p>Tipografi motivasi islami</p>
+            <button class="pi-btn">Detail ↗</button>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Mulai dengan Bismillah</h4><span>Tipografi · Islami</span></div>
+      </div>
+
+      <!-- 8. Ingat Hidup -->
+      <div class="pi" data-tags="branding"
+           data-title="Ingat Hidup Hanya Sekali"
+           data-desc="Poster tipografi motivasi dengan desain bold hitam putih dan aksen kuning-merah api. Pesan kuat satu pandang."
+           data-img="img2/hidup.PNG">
+        <div class="pi-img">
+          <img src="img2/hidup.PNG" alt="Ingat Hidup" loading="lazy"/>
+          <div class="pi-ov">
+            <span class="pi-tag">Tipografi · Motivasi</span>
+            <h4>Ingat Hidup Hanya Sekali</h4>
+            <p>Bold typographic poster</p>
+            <button class="pi-btn">Detail ↗</button>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Ingat Hidup Hanya Sekali</h4><span>Tipografi · Motivasi</span></div>
+      </div>
+
+      <!-- 9. Kampung Kecil LIVE -->
+      <div class="pi pi-live" data-tags="web"
+           data-title="Kampung Kecil — Website Restoran"
+           data-desc="Website restoran tradisional Kampung Kecil. Menu, galeri, lokasi & kontak. Dibangun dan deploy ke Vercel."
+           data-url="https://restorant-six-zeta.vercel.app/">
+        <div class="pi-img pi-live-img">
+          <div class="live-card" style="background:linear-gradient(135deg,#0d2010,#1a3a1a)">
+            <div class="lc-icon">🍽️</div>
+            <div class="lc-info">
+              <span class="lc-badge">● Live</span>
+              <h4>Kampung Kecil</h4>
+              <p>Website Restoran Tradisional</p>
+              <code>restorant-six-zeta.vercel.app</code>
+            </div>
+          </div>
+          <div class="pi-ov">
+            <span class="pi-tag">Website · Web Design</span>
+            <h4>Kampung Kecil</h4>
+            <p>Restoran tradisional · Vercel</p>
+            <a href="https://restorant-six-zeta.vercel.app/" target="_blank" rel="noopener" class="pi-btn">Kunjungi ↗</a>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Kampung Kecil</h4><span>Website · Live ✦</span></div>
+      </div>
+
+      <!-- 10. Netty's LIVE -->
+      <div class="pi pi-live" data-tags="web"
+           data-title="Netty's Bed & Cafe — Website Cafe"
+           data-desc="Website cafe modern Netty's Bed & Cafe di Bogor. Menu, galeri, lokasi & reservasi online."
+           data-url="https://netty-s-bed-and-caffe.vercel.app/">
+        <div class="pi-img pi-live-img">
+          <div class="live-card" style="background:linear-gradient(135deg,#1e1505,#2e200a)">
+            <div class="lc-icon">☕</div>
+            <div class="lc-info">
+              <span class="lc-badge">● Live</span>
+              <h4>Netty's Bed &amp; Cafe</h4>
+              <p>Website Cafe · Bogor</p>
+              <code>netty-s-bed-and-caffe.vercel.app</code>
+            </div>
+          </div>
+          <div class="pi-ov">
+            <span class="pi-tag">Website · Web Design</span>
+            <h4>Netty's Bed &amp; Cafe</h4>
+            <p>Cafe Bogor · Vercel</p>
+            <a href="https://netty-s-bed-and-caffe.vercel.app/" target="_blank" rel="noopener" class="pi-btn">Kunjungi ↗</a>
+          </div>
+        </div>
+        <div class="pi-foot"><h4>Netty's Bed &amp; Cafe</h4><span>Website · Live ✦</span></div>
+      </div>
+
+    </div><!-- end port-grid -->
+  </div>
+</section>
+
+<!-- ══ ABOUT STRIP ══ -->
+<section id="about" class="about-strip">
+  <div class="wrap as-grid">
+    <div class="as-text">
+      <div class="sec-label"><span class="num">03</span> Tentang</div>
+      <h2 class="sec-title">Desainer yang <em>terus belajar</em></h2>
+      <p>Pelajar SMK Multazam jurusan DKV yang aktif mengembangkan skill desain grafis, tipografi, UI/UX, dan web development — dengan nilai-nilai Al-Qur'an dan Hadis sebagai landasan etika berkarya.</p>
+      <a href="about.html" class="btn-sec" style="display:inline-flex;align-items:center;gap:.5rem">Selengkapnya →</a>
+    </div>
+    <div class="as-img">
+      <div class="as-frame">
+        <img src="img2/designer.png" alt="Firli"/>
+        <div class="as-badge">
+          <span>SMK</span>
+          <strong>Multazam</strong>
+          <span>DKV</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="sec-label"><span class="num">04</span> Kontak</div>
+    <div class="ct-grid">
+
+      <div class="ct-left">
+        <h2 class="sec-title ct-title">Siap <em>Berkolaborasi?</em></h2>
+        <p class="ct-desc">Punya proyek? Kirim brief singkat — saya balas dalam 1–2 hari kerja.</p>
+        <ul class="ct-info">
+          <li><span>Email</span><a href="mailto:familyfirli3@gmail.com">familyfirli3@gmail.com ↗</a></li>
+          <li><span>Lokasi</span><b>Indonesia 🇮🇩</b></li>
+          <li><span>Respon</span><b>1–2 hari kerja</b></li>
+        </ul>
+        <div class="ct-social">
+          <a href="mailto:familyfirli3@gmail.com">Email</a>
+          <a href="#">Behance</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+
+      <form id="contactForm" class="ct-form" novalidate>
+        <div class="f2">
+          <div class="fg"><label>Nama</label><input type="text" id="name" placeholder="Nama Anda" required /></div>
+          <div class="fg"><label>Email</label><input type="email" id="email" placeholder="email@anda.com" required /></div>
+        </div>
+        <div class="fg"><label>Subjek</label><input type="text" id="subject" placeholder="Tentang proyek..." /></div>
+        <div class="fg"><label>Pesan</label><textarea id="message" rows="5" placeholder="Ceritakan proyeknya..." required></textarea></div>
+        <button type="submit" class="btn-main btn-full">
+          Kirim Pesan
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        </button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="wrap ft-inner">
+    <div>
+      <a href="#hero" class="logo" style="font-size:1.6rem">F<span>.</span></a>
+      <p class="ft-tag">Desainer · Pelajar · Kreator</p>
+    </div>
+    <div class="ft-right">
+      <p>&copy; 2025 Firli · SMK Multazam DKV</p>
+      <p class="ft-made">Made with ❤️ &amp; AI-assisted workflows</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ MODAL ══ -->
+<div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="modal-bg" id="mbg"></div>
+  <div class="modal-box">
+    <button class="modal-x" id="mx" aria-label="Tutup">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="modal-body">
+      <div class="modal-img"><img id="mimg" src="" alt=""/></div>
+      <div class="modal-info">
+        <span id="mtag" class="modal-tag"></span>
+        <h3 id="mtitle"></h3>
+        <p id="mdesc"></p>
+        <div class="modal-nav">
+          <button id="mprev">← Prev</button>
+          <button id="mnext">Next →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
