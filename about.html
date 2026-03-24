@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tentang — Firli · SMK Multazam DKV</title>
+  <link rel="icon" href="img2/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .about-page { min-height:100vh; display:flex; align-items:center; padding:8rem 0 5rem; position:relative; }
+    .ab-grid { display:grid; grid-template-columns:400px 1fr; gap:5rem; align-items:start; position:relative; z-index:1; }
+    .ab-photo-wrap { position:relative; }
+    .ab-photo-wrap img { width:100%; border-radius:var(--r); border:1px solid var(--brd); filter:grayscale(15%); }
+    .ab-label { position:absolute; bottom:-1rem; left:-1rem; background:var(--lime); color:#080a0e; padding:.7rem 1.1rem; border-radius:var(--rs); font-family:var(--fd); font-weight:800; font-size:.9rem; box-shadow:0 8px 24px rgba(214,247,74,.3); }
+    .ab-content h2 { font-family:var(--fd); font-size:clamp(2.5rem,5vw,3.75rem); letter-spacing:.03em; line-height:1; margin-bottom:1.25rem; }
+    .ab-content h2 em { color:var(--lime); font-style:normal; }
+    .ab-content p { color:var(--tx2); font-size:.97rem; line-height:1.85; margin-bottom:1.4rem; }
+    .sk-title { font-family:var(--fm); font-size:.65rem; letter-spacing:.15em; text-transform:uppercase; color:var(--tx2); margin-bottom:.7rem; }
+    .sk-tags { display:flex; flex-wrap:wrap; gap:.45rem; margin-bottom:1.5rem; }
+    .sk-tags span { font-family:var(--fm); font-size:.7rem; background:var(--surf); border:1px solid var(--brd); color:var(--tx2); padding:.35rem .7rem; border-radius:100px; transition:border-color .2s,color .2s; }
+    .sk-tags span:hover { border-color:rgba(214,247,74,.3); color:var(--lime); }
+    .tujuan { background:linear-gradient(135deg,rgba(214,247,74,.06),rgba(214,247,74,.02)); border:1px solid rgba(214,247,74,.15); border-radius:var(--r); padding:1.4rem; margin:1.4rem 0; }
+    .tujuan h4 { font-family:var(--fm); font-size:.65rem; letter-spacing:.15em; text-transform:uppercase; color:var(--lime); margin-bottom:.6rem; }
+    .tujuan p { color:var(--tx2); font-size:.9rem; line-height:1.8; margin:0; }
+    .ab-ctas { display:flex; gap:.75rem; flex-wrap:wrap; margin-top:1.5rem; }
+    @media(max-width:900px) { .ab-grid { grid-template-columns:1fr; } .ab-photo-wrap { max-width:360px; } }
+  </style>
+</head>
+<body>
+
+<div class="noise" aria-hidden="true"></div>
+<div id="cur" aria-hidden="true"></div>
+<div id="cur2" aria-hidden="true"></div>
+
+<header id="hdr" class="hdr on">
+  <div class="wrap hdr-inner">
+    <a href="index.html" class="logo">F<span>.</span></a>
+    <nav id="nav" class="nav">
+      <a href="index.html#hero"      class="nl">Beranda</a>
+      <a href="index.html#services"  class="nl">Layanan</a>
+      <a href="index.html#portfolio" class="nl">Karya</a>
+      <a href="about.html"           class="nl" style="color:var(--lime)">Tentang</a>
+      <a href="index.html#contact"   class="nl nl-cta">Hubungi ↗</a>
+    </nav>
+    <button id="nt" class="nt" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="about-page">
+    <div class="hero-bg-word" aria-hidden="true">ABOUT</div>
+    <div class="wrap ab-grid">
+
+      <div class="ab-photo-wrap">
+        <img src="img2/designer.png" alt="Firli — SMK Multazam DKV"/>
+        <div class="ab-label">SMK Multazam · DKV</div>
+      </div>
+
+      <div class="ab-content">
+        <div class="sec-label"><span class="num">—</span> Tentang Saya</div>
+        <h2>Desainer yang <em>terus berkarya</em></h2>
+
+        <p>Saya adalah pelajar SMK Multazam jurusan Desain Komunikasi Visual (DKV). Aktif mengembangkan keterampilan di bidang desain grafis, ilustrasi, tipografi, dan desain antarmuka.</p>
+        <p>Saya berkomitmen untuk mempelajari teknik desain yang profesional sekaligus menjadikan nilai-nilai Al-Qur'an dan Hadis sebagai landasan etika dalam setiap karya dan aktivitas saya.</p>
+
+        <p class="sk-title">Keahlian & Ketertarikan</p>
+        <div class="sk-tags">
+          <span>Desain Grafis</span><span>Ilustrasi</span><span>Tipografi</span>
+          <span>Komunikasi Visual</span><span>UI/UX Design</span><span>Figma & Adobe XD</span>
+          <span>Branding & Identitas Visual</span><span>Photoshop</span>
+          <span>AI-powered Tools</span><span>Web Design</span><span>Prototyping</span>
+        </div>
+
+        <div class="tujuan">
+          <h4>Tujuan</h4>
+          <p>Menjadi desainer yang profesional sekaligus berguna bagi masyarakat. Menyatukan keahlian desain dengan nilai-nilai agama — menghasilkan karya yang tidak hanya menarik secara visual, tetapi juga bermanfaat dan mengandung pesan kebaikan.</p>
+        </div>
+
+        <div class="ab-ctas">
+          <a href="index.html#portfolio" class="btn-main">Lihat Karya ↗</a>
+          <a href="index.html"           class="btn-sec">← Kembali</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap ft-inner">
+    <div>
+      <a href="index.html" class="logo">F<span>.</span></a>
+      <p class="ft-tag">Desainer · Pelajar · Kreator</p>
+    </div>
+    <div class="ft-right">
+      <p>&copy; 2025 Firli · SMK Multazam DKV</p>
+      <p class="ft-made">Made with ❤️ &amp; AI-assisted workflows</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
